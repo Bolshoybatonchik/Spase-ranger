@@ -1,0 +1,89 @@
+body {
+    background-color: darkslategray;
+}
+
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#game {
+    cursor: none;
+}
+
+#inform {
+    width: 400px;
+    height: 900px;
+    position: absolute;
+    left: 40px;
+    top: 6px;
+    background-color: black;
+}
+
+
+#start {
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    top: 750px;
+    left: 130px;
+    font-size: 30px;
+    border: solid 1px deepskyblue;
+    color: fuchsia;
+    box-shadow: 0 0 10px 0 deepskyblue,0 0 20px 0 deepskyblue;
+    background-color: black;
+    transition: box-shadow 0.3s ease-in-out
+}
+#start:hover {
+    box-shadow: 0 0 25px 0 deepskyblue,0 0 35px 0 deepskyblue;
+    text-shadow: fuchsia 1px 0 10px;
+}
+#blownUpAster {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 600px;
+    left: 10px;
+    font-size: 30px;
+}
+
+#hp {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 650px;
+    left: 10px;
+    font-size: 30px;
+}
+
+#text {
+    color: white;
+    text-align: center;
+}
+
+#mission {
+    color: white;
+    font-size: 30px;
+}
+
+#destroyedEnemyShips {
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    top: 600px;
+    left: 10px;
+}
+
+#ambassadorsShipHp {
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    top: 700px;
+    left: 10px;
+}
+
+#instruction {
+    text-align: center;
+    color: white;
+}
